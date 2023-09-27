@@ -1,0 +1,29 @@
+.stateNote{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+.stateNote > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stateNote > div :first-child{
+color: #94a3b8;
+font-size: 1.5rem;
+}
+.stateNote > div :last-child{
+    background-color: #94a3b8;
+    font-size: 1.5rem;
+    color:#f1f5f9;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width:20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-left: 5px;
+    
+
+}

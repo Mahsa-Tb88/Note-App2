@@ -1,0 +1,6 @@
+.sortNote select {
+  padding: 5px 5px;
+  border: 1px solid #cbd5e1;
+  border-radius: 7px;
+  outline: none;
+}

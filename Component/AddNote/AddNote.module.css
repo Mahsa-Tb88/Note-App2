@@ -1,0 +1,58 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Fredoka One", cursive;
+  font-family: "Kreon", serif;
+}
+.addNote {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.addNote_inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+  width: 80%;
+}
+.addNote_inner h2 {
+  font-size: 2rem;
+}
+.addNote_inner input {
+  border: 1px solid #cbd5e1;
+  border-radius: 5px;
+  outline: none;
+  padding: 10px 5px;
+  width: 100%;
+}
+
+.addNote_inner button {
+  background-color: #fff;
+  outline: none;
+  border: 1px solid #2563eb;
+  background-color: #2563eb;
+  cursor: pointer;
+  border-radius: 7px;
+  color: #fff;
+  padding: 10px 15px;
+  width: 100%;
+  transition-duration: 0.5s;
+}
+.addNote_inner button:hover {
+  background-color: #fff;
+  color: #2563eb;
+}

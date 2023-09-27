@@ -1,0 +1,56 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Fredoka One", cursive;
+  font-family: "Kreon", serif;
+  background-color: #f8fafc;
+}
+
+.app {
+  width: 90%;
+  margin: 0 auto;
+}
+.header-app {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: 1px solid #cbd5e1;
+  margin-bottom: 4rem;
+  padding: 4rem 0;
+}
+.header-app-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-app-title h1 {
+  margin-right: 5px;
+  font-size: 3rem;
+}
+.header-app-title span {
+  font-size: 1.5em;
+  font-size: 2.5rem;
+}
+.body-app {
+  display: flex;
+  justify-content: space-between;
+}
+.body-app_addNote {
+  width: 30%;
+}
+.body-app_listNote {
+  width: 70%;
+  /* background-color: aquamarine; */
+}
